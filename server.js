@@ -8,7 +8,7 @@ function syncFunc (req, res) {
 }
 
 // comment to disable error throws
-// app.get('/test-async', asyncFunc);
+app.get('/test-async', asyncFunc);
 async function asyncFunc (req, res) {
     const value = await someAPICallMock();
     res.send(value);
