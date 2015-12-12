@@ -4,8 +4,6 @@
     "stage-0"
   ],
   "plugins": [
-    "syntax-async-functions",
-    "transform-regenerator",
     "transform-runtime"
   ]
 }

@@ -1,5 +1,7 @@
 # Babel 6 async/await Express bug
 
+> https://phabricator.babeljs.io/T6815
+
 ## Steps to reproduce:
 
 1. Clone this repo and run `npm install` inside
